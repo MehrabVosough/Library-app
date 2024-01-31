@@ -1,9 +1,12 @@
+import { books } from "./constants/mockData";
+import Layout from "./layouts/Layout";
+
 function App() {
-  return (
-    <>
-      <h1>Book App Starting files</h1>
-    </>
-  );
+	return (
+		<Layout>
+			<h1>Book App Starting files</h1>
+		</Layout>
+	);
 }
 
 export default App;
